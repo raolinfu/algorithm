@@ -3,9 +3,9 @@ package com.rao.bean;
 import java.util.*;
 
 public class TreeNode {
-    int value;
-    TreeNode left;
-    TreeNode right;
+    public int value;
+    public TreeNode left = null;
+    public TreeNode right = null;
 
     public TreeNode(int data) {
         this.value = data;

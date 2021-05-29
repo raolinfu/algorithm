@@ -38,7 +38,7 @@ import java.util.Objects;
 * */
 public class BaseType {
     static public void testEqual(){
-        int a = 1;
+          int a = 1;
         int b = 1;
 
 
