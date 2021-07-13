@@ -7,6 +7,8 @@ import java.util.TreeMap;
 import java.util.concurrent.ConcurrentHashMap;
 
 /*
+* java集合相关考题
+*
 * java中map的基础和原理
 * 1、HashMap
 *   数组+链表形式实现 链表过长会转化成红黑树 线程不安全
@@ -46,6 +48,7 @@ public class MapCollection {
         table.put(19, 12);
         table.put(12, 13);
         table.put(20, 34);
+        System.out.println(table.contains(34));
         System.out.println(table.toString());
 
         LinkedHashMap<Integer, Integer> linkedHashMap = new LinkedHashMap<>();
